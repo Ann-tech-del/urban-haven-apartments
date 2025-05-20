@@ -153,7 +153,6 @@ body {
   color: var(--color-black-lighter);
   margin-top: 3rem;
   text-transform: capitalize;
-  
 }
 .info a:hover {
   background-color: rgba(255, 0, 0, 0.534);
@@ -172,7 +171,6 @@ body {
   border-radius: 60%;
   align-items: center;
   justify-content: center;
-  
 }
 .info a :hover {
   background-color: rgba(255, 0, 0, 0.534);
@@ -204,6 +202,7 @@ body {
   cursor: pointer;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   margin-top: 3rem;
+  justify-content: space-between;
 }
 .available-room-details h3 {
   color: var(--color-primary);
@@ -309,6 +308,7 @@ body {
   font-size: 3rem;
   color: var(--color-primary-light);
   margin-bottom: 2rem;
+  text-transform: capitalize;
 }
 .card-amenities p {
   margin-bottom: 3rem;
@@ -566,7 +566,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 500px) {
   html {
     font-size: 55%;
@@ -594,4 +593,3 @@ body {
     font-size: 2.5rem;
   }
 }
-
